@@ -2,8 +2,8 @@ class EosioCdt < Formula
 
    homepage "https://github.com/eosio/eosio.cdt"
    revision 0
-   url "https://github.com/eosio/eosio.cdt/archive/v1.6.3.tar.gz"
-   version "1.6.3"
+   url "https://github.com/eosio/eosio.cdt/archive/v1.7.0.tar.gz"
+   version "1.7.0"
    
    option :universal
 
@@ -21,8 +21,8 @@ class EosioCdt < Formula
    depends_on :arch =>  :intel
   
    bottle do
-      root_url "https://github.com/eosio/eosio.cdt/releases/download/v1.6.3"
-      sha256 "0276755dc0a444a9dffeb1aeddb26246faf0464daf7e2e133caaf96097bfa7c7" => :mojave
+      root_url "https://github.com/eosio/eosio.cdt/releases/download/v1.7.0"
+      sha256 "cd4183525582edef621eb59c5ff485f48ecf5d28a37344f65a556ec965ba8109" => :mojave
    end
    def install
       raise "Error, only supporting binary packages at this time"
