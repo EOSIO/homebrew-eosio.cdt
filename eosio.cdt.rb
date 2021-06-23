@@ -23,6 +23,7 @@ class EosioCdt < Formula
    bottle do
       root_url "https://github.com/eosio/eosio.cdt/releases/download/v1.8.0"
       sha256 "1af9ec47abaa2c4e3cc7037a18d4cd8b57dea2a018b7868fd2d2351daf89045b" => :catalina
+      sha256 "9489660420c4582fd3520fefb9226b56ef9610ddaa604d3c1974dad86b1424e9" => :mojave
    end
    def install
       raise "Error, only supporting binary packages at this time"
